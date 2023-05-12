@@ -13,5 +13,35 @@
 }
 
 body {
+  background-color: var(--Light-gray);
   font-family: "Outfit", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.qr-container {
+  max-width: 300px;
+  background-color: var(--White-color);
+  padding: 10px;
+  border-radius: 10px;
+}
+.qr-image {
+  max-width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+.qr-text-section {
+  margin: 20px 10px 30px 10px;
+  text-align: center;
+}
+p:nth-child(1) {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--Dark-blue);
+}
+p:nth-child(2) {
+  color: var(--Grayish-blue);
+  font-size: 15px;
+  padding-top: 15px;
 }
